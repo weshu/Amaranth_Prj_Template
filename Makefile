@@ -10,9 +10,9 @@ verilog:
 verilog-dbg:
 	python -m hw.project_name.Top 
 
-# Doc gen related
+# Doc gen
 apidoc:
-	sphinx-apidoc -o ./docs/source ./hw/
+	sphinx-apidoc -f -e -o ./docs/source/apidoc ./hw/
 
 html:
 	$(MAKE) -C ./docs/ html
