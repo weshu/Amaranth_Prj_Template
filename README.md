@@ -5,6 +5,10 @@ Reference:
  - [SpinalTemplateSbt](https://github.com/SpinalHDL/SpinalTemplateSbt)
  - [Amaranth-stdio](https://github.com/amaranth-lang/amaranth-stdio)
 
+# Pre-requirement
+ - [Amaranth-HDL](https://amaranth-lang.org/docs/amaranth/latest/install.html): GTKWave + Amaranth + Yosys
+ - [Sphinx](https://www.sphinx-doc.org/en/master/index.html) is required to enable the docs gen features. 
+ - [Make](https://www.gnu.org/software/make/) is required to run the tools in this project. Linux and Mac user should already have it installed, Windows user may need MSYS, WSL, or cmake/gmake ...
 # Test this project
 ## Run unit tests
 python unittest is used in this project, to test it, in the project root folder, run:
