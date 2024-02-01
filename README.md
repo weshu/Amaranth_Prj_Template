@@ -10,6 +10,11 @@ Reference:
  - [Sphinx](https://www.sphinx-doc.org/en/master/index.html) is required to enable the docs gen features. 
  - [Make](https://www.gnu.org/software/make/) is required to run the tools in this project. Linux and Mac user should already have it installed, Windows user may need MSYS, WSL, or cmake/gmake ...
 # Test this project
+## Make empty folders
+Init the empty folders before run:
+```sh
+make init-folders
+```
 ## Run unit tests
 python unittest is used in this project, to test it, in the project root folder, run:
 ```sh

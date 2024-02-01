@@ -1,3 +1,12 @@
+# util for the project
+.PHONY init-folders unittest verilog verilog-dbg apidoc html docs clean-docs
+
+# Run ONCE
+# Make empty folders:
+init-folders:
+	mkdir -p ./hw/gen
+	mkdir -p ./tests/waveform
+	mkdir -p ./docs/source/_static
 
 # Tests
 unittest:
