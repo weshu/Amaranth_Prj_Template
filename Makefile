@@ -1,5 +1,6 @@
 # util for the project
-.PHONY init-folders unittest verilog verilog-dbg apidoc html docs clean-docs
+.PHONY init-folders unittest verilog verilog-dbg
+.PHONY apidoc html docs clean-docs
 
 # Run ONCE
 # Make empty folders:
