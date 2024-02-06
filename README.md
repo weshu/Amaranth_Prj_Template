@@ -13,7 +13,7 @@ Reference:
 ## Make empty folders
 Init the empty folders before run:
 ```sh
-make init-folders
+make init
 ```
 ## Run unit tests
 python unittest is used in this project, to test it, in the project root folder, run:
